@@ -1,0 +1,23 @@
+{
+  "name": "b2w",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagachinta/b2w.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagachinta/b2w/issues"
+  },
+  "homepage": "https://github.com/nagachinta/b2w#readme"
+}
