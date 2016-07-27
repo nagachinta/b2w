@@ -1,5 +1,6 @@
-var path = require('path');
 var express = require('express');
+var path = require('path');
+var open = require("open");
 var app = express();
 var port = process.env.PORT || 3000;
 
@@ -15,6 +16,9 @@ app.use(express.static(__dirname));
 app.listen(port, function() {
     console.log('express HTTP Server Started: ', port);
     console.log('Serving Files from: ', __dirname);
+    // setTimeout(function() {
+    //     open("http://localhost:3000/","chrome");
+    // }, 500);
     // console.log('Serving script files from: ', scriptPath);   
 
 });
